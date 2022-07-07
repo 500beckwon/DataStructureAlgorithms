@@ -24,6 +24,7 @@
 		F6B180DC28772A2C00D9295C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6B180DF28772A2C00D9295C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6B180E128772A2C00D9295C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B180E828772AD400D9295C /* BasicDataStruct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BasicDataStruct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		F6B180C728772A2B00D9295C = {
 			isa = PBXGroup;
 			children = (
+				F6B180E728772AB000D9295C /* PlayGround */,
 				F6B180D228772A2B00D9295C /* DataStructureAlgorithms */,
 				F6B180D128772A2B00D9295C /* Products */,
 			);
@@ -65,6 +67,14 @@
 				F6B180E128772A2C00D9295C /* Info.plist */,
 			);
 			path = DataStructureAlgorithms;
+			sourceTree = "<group>";
+		};
+		F6B180E728772AB000D9295C /* PlayGround */ = {
+			isa = PBXGroup;
+			children = (
+				F6B180E828772AD400D9295C /* BasicDataStruct.playground */,
+			);
+			path = PlayGround;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
